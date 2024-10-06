@@ -68,7 +68,7 @@
                 if (selectedCategories.includes('numbers')) characters = characters.concat(numbers);
                 if (selectedCategories.includes('symbols')) characters = characters.concat(symbols);
                 if (characters.length === 0) {
-                    $('#ascii-char').text('?');
+                    $('#ascii-char').text('💦');
                 } else {
                     getRandomCharacter();
                 }
@@ -82,7 +82,7 @@
                     $('#ascii-char').text(currentChar);
                     $('#ascii-char').removeClass('text-red-500'); 
                 } else {
-                    $('#ascii-char').text('?');
+                    $('#ascii-char').text('💦');
                 }
             }
 
